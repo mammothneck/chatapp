@@ -177,6 +177,7 @@
           gap: 10px;
           color: white;
           cursor: pointer;
+          overflow: scroll;
   
           &:hover {
             background-color: #2f2d52;
@@ -203,6 +204,7 @@
       }
       .chat {
         flex: 2;
+        // overflow: scroll;
   
         .chatInfo {
           height: 50px;
