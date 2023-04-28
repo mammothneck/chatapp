@@ -109,6 +109,7 @@
         flex: 1;
         background-color: #3e3c61;
         position: relative;
+        overflow-y: scroll;
   
         .navbar {
           display: flex;
@@ -229,7 +230,7 @@
           background-color: #ddddf7;
           padding: 10px;
           height: calc(100% - 160px);
-          overflow: scroll;
+          overflow-y: scroll;
   
           .message {
             display: flex;
